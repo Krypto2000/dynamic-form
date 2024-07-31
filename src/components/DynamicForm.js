@@ -64,7 +64,7 @@ const DynamicForm = () => {
             name="name"
             value={formData.name}
             onChange={handleChange}
-            className={`w-full p-2 border ${errors.name ? 'border-red-500' : 'border-gray-300'} rounded`}
+            className={`w-full p-2 border text-black ${errors.name ? 'border-red-500' : 'border-gray-300'} rounded`}
           />
           {errors.name && <p className="text-red-500 text-sm">{errors.name}</p>}
         </div>
@@ -75,7 +75,7 @@ const DynamicForm = () => {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className={`w-full p-2 border ${errors.email ? 'border-red-500' : 'border-gray-300'} rounded`}
+            className={`w-full p-2 border text-black ${errors.email ? 'border-red-500' : 'border-gray-300'} rounded`}
           />
           {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
         </div>
@@ -86,7 +86,7 @@ const DynamicForm = () => {
             name="password"
             value={formData.password}
             onChange={handleChange}
-            className={`w-full p-2 border ${errors.password ? 'border-red-500' : 'border-gray-300'} rounded`}
+            className={`w-full p-2 border text-black ${errors.password ? 'border-red-500' : 'border-gray-300'} rounded`}
           />
           {errors.password && <p className="text-red-500 text-sm">{errors.password}</p>}
         </div>
@@ -97,7 +97,7 @@ const DynamicForm = () => {
             name="confirmPassword"
             value={formData.confirmPassword}
             onChange={handleChange}
-            className={`w-full p-2 border ${errors.confirmPassword ? 'border-red-500' : 'border-gray-300'} rounded`}
+            className={`w-full p-2 border text-black ${errors.confirmPassword ? 'border-red-500' : 'border-gray-300'} rounded`}
           />
           {errors.confirmPassword && <p className="text-red-500 text-sm">{errors.confirmPassword}</p>}
         </div>
